@@ -1,0 +1,12 @@
+body{
+     background-color: #32333D;
+}
+
+.container{
+     margin-top: 50px;
+     text-align: center;
+}
+.watch{
+     color: gold;
+     font-size: 100px;
+}

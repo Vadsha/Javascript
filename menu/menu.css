@@ -1,0 +1,59 @@
+body{
+     background-color: #32333D;
+}
+.menuLogo{
+     position: absolute;
+     margin-top: 50px;
+     cursor: pointer;
+}
+.logo{
+     transition: all 0.2s ease-in;
+     width: 25px;
+     height: 2px;
+     margin-bottom: 4px;
+     background-color: white;
+     position: relative;
+}
+.disappear{
+     opacity: 0;
+}
+.logoOne{
+     transform: rotate(45deg);
+     top: 5px;
+}
+.logoThree{
+     transform: rotate(-45deg);
+     top: -7px;
+}
+.coverPage{
+     transition: all 0.2s ease-in;
+}
+.menu-item{
+     width: 100vw;
+     height: 100vh;
+     background-color: #281B4D;
+}
+.coverPage{
+
+     text-align: center;
+     align-items: center;
+}
+
+ul{
+     transition: all 0.5s ease-in;
+     padding: 200px;
+     color: #F5DEB3;
+     font-size: 30px;
+     list-style-type: none;
+}
+li{
+     user-select: none;
+}
+a{
+     text-decoration: none;
+     color: inherit;
+}
+.tran{
+     transform: translateY(-20px);
+}
+

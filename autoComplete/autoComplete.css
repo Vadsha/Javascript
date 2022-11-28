@@ -1,0 +1,36 @@
+body{
+     background-color: #32333D;
+}
+
+.row{
+     margin-top: 10px;
+}
+.resultContainer{
+     background-color: #fff;
+}
+.autoCompleteInput{
+     border-bottom-left-radius: 0px;
+     border-bottom-right-radius: 0px;
+}
+.productItemTitle{
+     font-size: larger;
+     width: 80%;
+     height: 30px;
+     padding: 5px;
+}
+.productItemImage{
+     margin-top: 5px;
+     width: 60px;
+     height: 70px;
+     margin-right: 10px;
+}
+.productItem{
+     border-bottom: 1px solid black;
+     height: 100px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+}
+.selectedContainer{
+     margin-top: 30px;
+} 

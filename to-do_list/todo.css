@@ -1,0 +1,18 @@
+body{
+     background-color: #32333D;
+     color: white;
+}
+.items{
+     width: 100vw;
+     margin-top: 10px;
+}
+.valueTag{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     border-radius: 1%;
+     font-size: 20px;
+     background-color: goldenrod;
+     padding: 5px 5px;
+     margin-top: 5px;
+}

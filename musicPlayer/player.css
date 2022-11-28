@@ -1,0 +1,59 @@
+body{
+     background-color: white;
+}
+
+.darkMode{
+     position: absolute;
+     right: 0;
+}
+.container{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     height: 100vh;
+     justify-content: center;
+}
+.songList{
+     display: flex;
+     flex-direction: column;
+}
+h1{
+     font-weight: 100;
+     text-align: center;
+}
+.parentList{
+     padding: 2px auto;
+     margin-bottom: 5px;
+}
+.list{
+     cursor: pointer;
+     border-bottom: 1px solid;
+     padding: 1px 15px;
+     font-size: 25px;
+     transition: 0.5s;
+}
+.list:hover{
+     zoom: 110%;
+     color: aqua;
+}
+.progressBar{
+     width: 450px;
+     background-color: gray;
+     height: 3px;
+}
+#progressWidth{
+     width: 0px;
+     height: 100%;
+     background-color: red;
+}
+.time{
+     font-size: 20px;
+}
+.controls{
+     font-size: 20px;
+     margin-top: 8px;
+     padding-left: 30px;
+     padding-right: 30px;
+     user-select: none;
+     cursor: pointer;
+}

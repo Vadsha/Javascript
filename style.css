@@ -1,0 +1,68 @@
+
+body{
+     background-color: #32333D;
+}
+/* .product{
+     display: inline;
+     cursor: pointer;
+     background-color: cornflowerblue;
+     padding: 10px;
+     width: 5%;
+
+     user-select: none;
+}
+.clicked{
+     text-decoration: line-through;
+}
+.parent{
+     margin-top: 30px;
+}
+.fa-trash{
+     cursor: pointer;
+     margin-left: 5px;
+} */
+
+/* .product{
+     margin-top: 20px;
+     width: 15%;
+
+}
+.icon{
+     margin-left: 10px;
+}
+.parent{
+     display: block;
+     flex-direction: column;
+} */
+
+
+/* .items{
+     padding-left: 10px;
+     background-color: #ffc107;
+     margin-top: 10px;
+     font-size: 20px;
+} */
+
+          /* Toast alert+LocalStorage */
+/* .alertMessage{
+     background-color: whitesmoke;
+     width: 100%;
+     position: fixed;
+     bottom: 0px;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+
+}
+.alertTag{
+     border-radius: 3%;
+     position: absolute;
+     font-size: 25px;
+     color: white;
+     transition: bottom 0.4s ease-in-out;
+
+}
+.btnTag{
+     position: absolute;
+     margin-left: 500px;
+} */

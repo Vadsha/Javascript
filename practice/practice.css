@@ -1,0 +1,79 @@
+html{
+     scroll-behavior:smooth;
+}
+body{
+     background-color: white;
+     margin: 0;
+     padding: 0;
+     text-align: center;
+}
+
+.darkMode{
+     z-index: 1;
+     position: fixed;
+     right: 0;
+}
+
+.tabContainer{
+     z-index: 0.5;
+     width: 110%;
+     position: fixed;
+     left: -15px;
+}
+ul{
+     background-color: #DADBEF;
+     position: relative;
+     margin: 0;
+     padding: 0;
+}
+.liTag{
+     list-style:none;
+     display: inline-block;
+     padding: 0px 10px;
+     font-size: 25px;
+     user-select: none;
+     cursor: pointer;
+}
+.menuBar{
+     width: 0px;
+     height: 3px;
+     background-color: red;
+     transition: all ease-in-out 0.4s;
+}
+.homePage{
+     margin: 0;
+     padding: 0;
+     width: 100%;
+     overflow: hidden;
+}
+.mainImage{
+     width: 100%;
+     height: 100%;
+}
+.aboutCOC{
+     margin-top: 8px;
+     font-size: 25px;
+}
+
+.oneHero{
+     padding: 10px 10px;
+}
+.aboutTroops{
+     text-align: start;
+     width: 75%;
+     font-size: 15px;
+}
+.troopImages{
+     width: 25%;
+     height: 300px;
+}
+.aboutTroopsthings{
+     font-size: 18px;
+}
+
+.troops , .super , .spells , .machines , .pets{
+     display: flex;
+     height: 500px;
+     justify-content: center;
+     align-items: center;
+}
